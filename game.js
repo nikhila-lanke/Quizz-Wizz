@@ -45,7 +45,7 @@ fetch("https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=mul
 });
 
 const CORECT_BONUS =10;
-const MAX_QUESTIONS =3;
+const MAX_QUESTIONS =10;
 
 
 startGame = ()=>{
@@ -112,5 +112,6 @@ incrementScore = num =>{
     score+=num;
     scoreText.innerText=score;
 }
+
 
 
